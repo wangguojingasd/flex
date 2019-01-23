@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>flex-wrap定义如果一条轴线排不下，如何换行</title>
+	<link rel="stylesheet" href="css/flexWrap.css">
+    <link rel="stylesheet" href="../public/css/comm.css">
+    <script src="../public/js/jquery-3.3.1.min.js"></script>
+    <script src="js/flexWrap.js"></script>
+</head>
+<body>
+    <div class="radio">
+        <input name="flex-wrap" type="radio" id="d1" value="nowrap" checked><label for="d1">nowrap</label>
+        <input name="flex-wrap" type="radio" id="d2" value="wrap"><label for="d2">wrap</label>
+        <input name="flex-wrap" type="radio" id="d3" value="wrap-reverse"><label for="d3">wrap-reverse</label>
+    </div>
+	<div class="flexCon" data-wrap="nowrap">
+        <div class="flex-item" data-color="2a80b9">
+            <p>1</p>
+        </div>
+        <div class="flex-item" data-color="8f44ad">
+            <p>2</p>
+        </div>
+        <div class="flex-item" data-color="16a086">
+            <p>3</p>
+        </div>
+        <div class="flex-item" data-color="f1c40f">
+            <p>4</p>
+        </div>
+        <div class="flex-item" data-color="e77e23">
+            <p>5</p>
+        </div>
+    </div>
+</body>
+</html>

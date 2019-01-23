@@ -1,0 +1,26 @@
+.flexCon{
+    width: 500px;
+    display: flex;
+    padding: 20px;
+    border: 1px solid #555;
+}
+.flex-item{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    /* inherit从父元素继承display属性 */
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+}
+.flex-item p{
+    color:#fff;
+}
+/* 单选框 */
+.radio{
+    width: 100%;
+    padding: 20px;
+}
+input{
+    margin: 0 10px;
+}
